@@ -1,0 +1,29 @@
+.searchWrapper {
+  margin-top: 25px;
+}
+.searchForm {
+  text-align: center;
+}
+.searchInput {
+  width:  500px;
+  font-size: 25px;
+  border:  none;
+  line-height: 1.5;
+  border-bottom:  solid 1px #999;
+}
+ol.resultList {
+  word-wrap: break-word;
+  width: 680px;
+  margin: 80px auto;
+}
+ol.resultList > li + li {
+  margin-top: 25px;
+}
+p.resultBody {
+  font-size: 12px;
+  margin-top:  5px;
+  opacity: 0.8;
+}
+.heightLight {
+  background: yellow;
+}

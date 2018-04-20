@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    input[type="text"]:focus {
+      outline: 0;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #CCC;
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <title>search</title>
+</head>
+
+<body>
+  <div class="searchWrapper">
+    <form action="post" class="searchForm">
+      <input type="text" class="searchInput jscInput" placeholder="search">
+    </form>
+    <ol class="resultList jscResultList">
+      <li>
+        <p class="resultTitle jscResultTitle"></p>
+        <p class="resultBody jscResultBody"></p>
+      </li>
+    </ol>
+  </div>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
